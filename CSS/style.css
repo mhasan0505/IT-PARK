@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: red;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.web{
+    color: blueviolet;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section li{
+    display: flex;
+    list-style: none;
+
+}
+section li a{
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+    background-color: aqua;
+    padding: 5px 10px;
+    border-radius: 3px;
